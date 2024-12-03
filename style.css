@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("https://cdn.vox-cdn.com/thumbor/tTsKk1kosTEL7jtBV6LbbRWn1LQ=/0x0:1200x800/1200x800/filters:focal(504x304:696x496)/cdn.vox-cdn.com/uploads/chorus_image/image/73181642/ChauCelticsWin_Getty_AP_Ringer.0.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    padding: 10px;
+    text-align: center;
+    background:blue;
+    position: sticky;
+    top: 0px;
+
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 3vw;
+    color:yellow;
+    margin:0px 30px;
+    
+}
+
+.qbox{
+    width: 70vw;
+    padding:20px;
+    background: rgba(0,0,0,0.8);
+    margin: 20px auto;
+    color:yellow;
+    font-size: 1.5vw;
+}
+
+.questionbox{
+    margin:20px;
+}
+.questionbox button{
+    width:10vw;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    margin-top: 5px;
+}
+
+.questionbox button:hover{
+   background: lightgray;
+}
+
+.questionbox button:active{
+   background: yellow;
+   font-weight: bold;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    position: sticky;
+    top:80px;
+}
+
+.flexbox button{
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    background:green;
+    color:white;
+    font-weight: bold;
+}
+
+.flexbox button:hover{
+    background:lightgreen;
+}
+
+.flexbox button:active{
+    background-color: yellowgreen;
+}
+
+#hi button{
+    display: block;
+    margin-left: auto;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 10px;
+}
+
+#hi{
+    padding: 16px;
+}
+
+header h1{
+    text-align: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: cursive;
+    font-size: 5vw;
+}
